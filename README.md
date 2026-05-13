@@ -31,6 +31,7 @@
 
 ## Diagramas UML
 ### Diagrama de Clases
+```mermaid
 classDiagram
     class Vehiculo {
         +str patente
@@ -65,8 +66,10 @@ classDiagram
     Agencia "1" -- "*" Alquiler
     Alquiler "*" -- "1" Vehiculo
     Alquiler "*" -- "1" Cliente
+```
 
 ### Diagrama de Casos de Uso
+```mermaid
 graph TD
     Empleado("Empleado de Agencia")
     UC1(Registrar vehículo)
@@ -84,8 +87,10 @@ graph TD
     Empleado --> UC5
     Empleado --> UC6
     Empleado --> UC7
+```
 
 ### Diagrama de Secuencia
+```mermaid
 sequenceDiagram
     participant E as Empleado
     participant UI as Interfaz
@@ -102,3 +107,4 @@ sequenceDiagram
     AL-->>A: objeto alquiler
     A-->>UI: Confirmación
     UI-->>E: Muestra éxito
+```
