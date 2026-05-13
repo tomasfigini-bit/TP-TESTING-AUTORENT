@@ -31,7 +31,6 @@
 
 ## Diagramas UML
 ### Diagrama de Clases
-```mermaid
 classDiagram
     class Vehiculo {
         +str patente
@@ -67,6 +66,7 @@ classDiagram
     Alquiler "*" -- "1" Vehiculo
     Alquiler "*" -- "1" Cliente
 
+### Diagrama de Casos de Uso
 graph TD
     Empleado("Empleado de Agencia")
     UC1(Registrar vehículo)
@@ -84,8 +84,8 @@ graph TD
     Empleado --> UC5
     Empleado --> UC6
     Empleado --> UC7
-  
 
+### Diagrama de Secuencia
 sequenceDiagram
     participant E as Empleado
     participant UI as Interfaz
@@ -102,7 +102,3 @@ sequenceDiagram
     AL-->>A: objeto alquiler
     A-->>UI: Confirmación
     UI-->>E: Muestra éxito
-
-**Mensaje de commit:** `docs: actualizar README con diagramas UML`[cite: 186].
-
-¡Listo! Con esto el Sprint 1 queda impecable. ¿Querés que hagamos el último paso de este Sprint, que es el archivo de instrucciones de ejecución? [cite: 209-213]
