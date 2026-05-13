@@ -68,7 +68,7 @@ classDiagram
     Alquiler "*" -- "1" Cliente
 
 graph TD
-    Empleado((Empleado de Agencia))
+    Empleado("Empleado de Agencia")
     UC1(Registrar vehículo)
     UC2(Registrar cliente)
     UC3(Alquilar vehículo)
@@ -84,23 +84,24 @@ graph TD
     Empleado --> UC5
     Empleado --> UC6
     Empleado --> UC7
+  
 
 sequenceDiagram
     participant E as Empleado
-    participant UI as UI (Interfaz)
+    participant UI as Interfaz
     participant A as Agencia
     participant V as Vehiculo
     participant AL as Alquiler
 
-    E->>UI: Ingresa datos (Patente, DNI, Días)
-    UI->>A: alquilar_vehiculo(patente, dni, dias)
+    E->>UI: Ingresa datos
+    UI->>A: alquilar_vehiculo()
     A->>V: verificar disponibilidad
     V-->>A: disponible
     A->>V: marcar_alquilado()
-    A->>AL: crear nuevo Alquiler()
+    A->>AL: crear Alquiler()
     AL-->>A: objeto alquiler
-    A-->>UI: Confirmación de éxito
-    UI-->>E: Muestra costo y éxito
+    A-->>UI: Confirmación
+    UI-->>E: Muestra éxito
 
 **Mensaje de commit:** `docs: actualizar README con diagramas UML`[cite: 186].
 
