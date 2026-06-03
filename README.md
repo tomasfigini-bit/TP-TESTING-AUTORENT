@@ -108,3 +108,22 @@ sequenceDiagram
     A-->>UI: Confirmación
     UI-->>E: Muestra éxito
 ```
+
+## 📋 Índice de Documentación de Testing
+
+A continuación, se presentan los accesos directos a todos los artefactos y planes de prueba diseñados y ejecutados para el sistema AutoRent:
+
+| Documento | Descripción |
+| :--- | :--- |
+| [docs/uml_clases.md](docs/uml_clases.md) | UML clases del sistema |
+| [docs/uml_casos_uso.md](docs/uml_casos_uso.md) | UML casos de uso |
+| [docs/uml_secuencia.md](docs/uml_secuencia.md) | Diagrama de secuencia |
+| [docs/pruebas/01_prueba_componentes.md](docs/pruebas/01_prueba_componentes.md) | Casos unitarios por clase |
+| [docs/pruebas/02_prueba_integracion.md](docs/pruebas/02_prueba_integracion.md) | Flujos entre clases |
+| [docs/pruebas/03_prueba_caja_negra.md](docs/pruebas/03_prueba_caja_negra.md) | Particiones y valores límite |
+| [docs/pruebas/04_prueba_rendimiento.md](docs/pruebas/04_prueba_rendimiento.md) | Carga y tiempo de respuesta |
+| [docs/pruebas/05_prueba_interfaz.md](docs/pruebas/05_prueba_interfaz.md) | Comportamiento visual |
+| [docs/pruebas/06_prueba_camino.md](docs/pruebas/06_prueba_camino.md) | Caja blanca / ciclo |
+| [docs/ejecucion/plan_ejecucion.md](docs/ejecucion/plan_ejecucion.md) | Cronograma y ambiente |
+| [docs/ejecucion/resultados_ejecucion.md](docs/ejecucion/resultados_ejecucion.md) | Resultados reales de ejecución |
+| [docs/e2e/pruebas_e2e.md](docs/e2e/pruebas_e2e.md) | Flujos completos de usuario |
