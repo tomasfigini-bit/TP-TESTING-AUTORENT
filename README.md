@@ -130,3 +130,15 @@ A continuación, se presentan los accesos directos a todos los artefactos y plan
 
 ---
 🔬 **Estado del Proyecto:** Entrega Final Completada.
+
+---
+
+## 🧪 Demostración de Modificación en Vivo (Introducción de Bug)
+
+Como parte de la defensa presencial del Trabajo Práctico, se realizó una modificación intencional en vivo en el código fuente para demostrar cómo un error lógico impacta en el sistema y cómo nuestra suite de pruebas lo detectaría de inmediato.
+
+### 🛠️ Línea Modificada (Clase `Alquiler`)
+* **Código Original (Correcto):**
+  ```python
+  def calcular_costo(self):
+      return self.dias * self.vehiculo.tarifa_diaria
