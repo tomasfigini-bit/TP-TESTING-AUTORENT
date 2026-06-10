@@ -127,3 +127,6 @@ A continuación, se presentan los accesos directos a todos los artefactos y plan
 | [docs/ejecucion/plan_ejecucion.md](docs/ejecucion/plan_ejecucion.md) | Cronograma y ambiente |
 | [docs/ejecucion/resultados_ejecucion.md](docs/ejecucion/resultados_ejecucion.md) | Resultados reales de ejecución |
 | [docs/e2e/pruebas_e2e.md](docs/e2e/pruebas_e2e.md) | Flujos completos de usuario |
+
+---
+🔬 **Estado del Proyecto:** Entrega Final Completada.
